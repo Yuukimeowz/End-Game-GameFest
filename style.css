@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: red;
+    justify-content: center;
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url(https://ktar.com/wp-content/uploads/2016/02/tempe-endgame.jpg);
+    min-height: 100vh;
+    color: white;
+}
