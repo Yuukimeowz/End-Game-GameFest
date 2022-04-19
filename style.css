@@ -48,20 +48,50 @@ body {
 .content-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .poster-container {
-    
     background-color: rgb(199, 194, 194);
     padding: 2em;
     margin: 0;
-    min-height: 100vh;
+    min-height: 80vh;
     width: 80vw;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .poster-content {
     padding: 2em;
 }
 
+
+img {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .hero-header {
+        font-size: 2em;
+    }
+
+
+    .poster-container {
+        width: 100vw;
+    }
+
+    .poster-picture {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+
+    .hero {
+        background-image: none;
+    }
+
+}
