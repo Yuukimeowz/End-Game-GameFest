@@ -1,14 +1,67 @@
 * {
     box-sizing: border-box;
 }
+
 header {
-    background-color: red;
+    background-color: purple;
     justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    /* background-image: url('./images/Hacknet_Red.jpg'); */
+    background-image: url('./images/Hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 80%;
+    width: 99.1vw;
+    padding: 12vh 0;
+}
+
+.hero-header {
+    line-height: 80px;
+    letter-spacing: 1px;
+    font-size: 4em;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    line-height: 35px;
+    font-size: 2em;
+    color: white;
     text-align: center;
 }
 
-.jumbotron {
-    background-image: url(https://ktar.com/wp-content/uploads/2016/02/tempe-endgame.jpg);
-    min-height: 100vh;
-    color: white;
+.content-container {
+    display: flex;
+    justify-content: center;
 }
+
+.poster-container {
+    
+    background-color: rgb(199, 194, 194);
+    padding: 2em;
+    margin: 0;
+    min-height: 100vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.poster-content {
+    padding: 2em;
+}
+
